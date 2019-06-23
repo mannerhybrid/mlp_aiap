@@ -1,5 +1,4 @@
 ## How to run
 
-pip install requirements.txt
-cd mlp
-python run.py
+./run.sh
+To run both feature engineering and model selection pipeline
