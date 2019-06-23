@@ -20,7 +20,7 @@ class FeatureExplorer:
         features = self.data.columns[:target_index]
         target = self.data.columns[target_index]
         num_features = len(features)
-        fig, ax = plt.subplots(nrows=1 + (num_features//3), ncols=3, figsize=(45,45),sharex=True)
+        fig, ax = plt.subplots(nrows=1 + (num_features//3), ncols=3, figsize=(5,5),sharex=True)
         blank_plots = (1 + num_features//3)*3 - num_features -1
         
         for num, i in enumerate(features):
