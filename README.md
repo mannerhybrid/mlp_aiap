@@ -1,1 +1,5 @@
-# mlp_aiap
+## How to run
+
+pip install requirements.txt
+cd mlp
+python run.py
